@@ -58,18 +58,19 @@
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <Generator>PublicResXFileCodeGenerator</Generator>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
@@ -78,6 +79,45 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1772631_add_addition_addition sign_calculator_math_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1772613_calculate_eliminate_hide_minus_soustract_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1772617_calculation_calculator_math_pow_pow sign_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1772632_calculator_math_multiplication_multiplication sign_multiply_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1772628_calculate_calculation_math_square_square root_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1772616_calculate_calculator_math_percentage_portion_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1772625_calcuator_divide_division_division sign_math_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1772618_calculate_calculator_equal_equality_math_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1772618_calculate_calculator_equal_equality_math_icon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1772618_calculate_calculator_equal_equality_math_icon2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1772618_calculate_calculator_equal_equality_math_icon3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\216104_backspace_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8664965_c_alphabet_icon.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

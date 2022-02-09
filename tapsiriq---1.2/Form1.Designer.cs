@@ -39,20 +39,20 @@
             this.button_3 = new System.Windows.Forms.Button();
             this.button_0 = new System.Windows.Forms.Button();
             this.button_plusminus = new System.Windows.Forms.Button();
-            this.button_plus = new System.Windows.Forms.Button();
-            this.button_minus = new System.Windows.Forms.Button();
-            this.button_bolme = new System.Windows.Forms.Button();
-            this.button_vur = new System.Windows.Forms.Button();
             this.button_vergul = new System.Windows.Forms.Button();
             this.button_bolbire = new System.Windows.Forms.Button();
-            this.button_kvadrat = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
             this.button_beraber = new System.Windows.Forms.Button();
-            this.button_faiz = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.button_ce = new System.Windows.Forms.Button();
             this.label_ekran = new System.Windows.Forms.Label();
+            this.button_faiz = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button_kvadrat = new System.Windows.Forms.Button();
+            this.button_vur = new System.Windows.Forms.Button();
+            this.button_bolme = new System.Windows.Forms.Button();
+            this.button_minus = new System.Windows.Forms.Button();
+            this.button_plus = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button_1
@@ -187,54 +187,6 @@
             this.button_plusminus.UseVisualStyleBackColor = false;
             this.button_plusminus.Click += new System.EventHandler(this.button_plusminus_Click);
             // 
-            // button_plus
-            // 
-            this.button_plus.BackColor = System.Drawing.Color.Coral;
-            this.button_plus.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button_plus.Location = new System.Drawing.Point(433, 621);
-            this.button_plus.Name = "button_plus";
-            this.button_plus.Size = new System.Drawing.Size(109, 91);
-            this.button_plus.TabIndex = 11;
-            this.button_plus.Text = "+";
-            this.button_plus.UseVisualStyleBackColor = false;
-            this.button_plus.Click += new System.EventHandler(this.button_plus_Click);
-            // 
-            // button_minus
-            // 
-            this.button_minus.BackColor = System.Drawing.Color.Coral;
-            this.button_minus.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button_minus.Location = new System.Drawing.Point(433, 524);
-            this.button_minus.Name = "button_minus";
-            this.button_minus.Size = new System.Drawing.Size(109, 91);
-            this.button_minus.TabIndex = 12;
-            this.button_minus.Text = "-";
-            this.button_minus.UseVisualStyleBackColor = false;
-            this.button_minus.Click += new System.EventHandler(this.button_minus_Click);
-            // 
-            // button_bolme
-            // 
-            this.button_bolme.BackColor = System.Drawing.Color.Coral;
-            this.button_bolme.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button_bolme.Location = new System.Drawing.Point(433, 330);
-            this.button_bolme.Name = "button_bolme";
-            this.button_bolme.Size = new System.Drawing.Size(109, 91);
-            this.button_bolme.TabIndex = 13;
-            this.button_bolme.Text = "/";
-            this.button_bolme.UseVisualStyleBackColor = false;
-            this.button_bolme.Click += new System.EventHandler(this.button_bolme_Click);
-            // 
-            // button_vur
-            // 
-            this.button_vur.BackColor = System.Drawing.Color.Coral;
-            this.button_vur.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button_vur.Location = new System.Drawing.Point(433, 427);
-            this.button_vur.Name = "button_vur";
-            this.button_vur.Size = new System.Drawing.Size(109, 91);
-            this.button_vur.TabIndex = 14;
-            this.button_vur.Text = "*";
-            this.button_vur.UseVisualStyleBackColor = false;
-            this.button_vur.Click += new System.EventHandler(this.button_vur_Click);
-            // 
             // button_vergul
             // 
             this.button_vergul.BackColor = System.Drawing.SystemColors.ControlDark;
@@ -259,33 +211,10 @@
             this.button_bolbire.UseVisualStyleBackColor = false;
             this.button_bolbire.Click += new System.EventHandler(this.button_bolbire_Click);
             // 
-            // button_kvadrat
-            // 
-            this.button_kvadrat.BackColor = System.Drawing.Color.Coral;
-            this.button_kvadrat.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button_kvadrat.Location = new System.Drawing.Point(201, 330);
-            this.button_kvadrat.Name = "button_kvadrat";
-            this.button_kvadrat.Size = new System.Drawing.Size(109, 91);
-            this.button_kvadrat.TabIndex = 17;
-            this.button_kvadrat.Text = " xʸ ";
-            this.button_kvadrat.UseVisualStyleBackColor = false;
-            this.button_kvadrat.Click += new System.EventHandler(this.button_kvadrat_Click);
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.Coral;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button1.Location = new System.Drawing.Point(318, 330);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(109, 91);
-            this.button1.TabIndex = 18;
-            this.button1.Text = "√¯";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
             // button_beraber
             // 
             this.button_beraber.BackColor = System.Drawing.Color.Coral;
+            this.button_beraber.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button_beraber.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button_beraber.Location = new System.Drawing.Point(433, 718);
             this.button_beraber.Name = "button_beraber";
@@ -295,39 +224,16 @@
             this.button_beraber.UseVisualStyleBackColor = false;
             this.button_beraber.Click += new System.EventHandler(this.button_beraber_Click);
             // 
-            // button_faiz
-            // 
-            this.button_faiz.BackColor = System.Drawing.Color.Coral;
-            this.button_faiz.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button_faiz.Location = new System.Drawing.Point(86, 233);
-            this.button_faiz.Name = "button_faiz";
-            this.button_faiz.Size = new System.Drawing.Size(109, 91);
-            this.button_faiz.TabIndex = 24;
-            this.button_faiz.Text = "%";
-            this.button_faiz.UseVisualStyleBackColor = false;
-            this.button_faiz.Click += new System.EventHandler(this.button_faiz_Click);
-            // 
-            // button3
-            // 
-            this.button3.BackColor = System.Drawing.Color.Coral;
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button3.Location = new System.Drawing.Point(433, 233);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(109, 91);
-            this.button3.TabIndex = 23;
-            this.button3.Text = "⌫ ";
-            this.button3.UseVisualStyleBackColor = false;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
-            // 
             // button5
             // 
             this.button5.BackColor = System.Drawing.Color.Coral;
+            this.button5.BackgroundImage = global::tapsiriq___1._2.Properties.Resources._8664965_c_alphabet_icon;
+            this.button5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button5.Location = new System.Drawing.Point(318, 233);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(109, 91);
             this.button5.TabIndex = 21;
-            this.button5.Text = "C";
             this.button5.UseVisualStyleBackColor = false;
             this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
@@ -352,6 +258,117 @@
             this.label_ekran.Size = new System.Drawing.Size(152, 166);
             this.label_ekran.TabIndex = 25;
             this.label_ekran.Text = "0";
+            // 
+            // button_faiz
+            // 
+            this.button_faiz.BackColor = System.Drawing.Color.Coral;
+            this.button_faiz.BackgroundImage = global::tapsiriq___1._2.Properties.Resources._1772616_calculate_calculator_math_percentage_portion_icon;
+            this.button_faiz.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button_faiz.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button_faiz.Location = new System.Drawing.Point(86, 233);
+            this.button_faiz.Name = "button_faiz";
+            this.button_faiz.Size = new System.Drawing.Size(109, 91);
+            this.button_faiz.TabIndex = 24;
+            this.button_faiz.Text = "%";
+            this.button_faiz.UseVisualStyleBackColor = false;
+            this.button_faiz.Click += new System.EventHandler(this.button_faiz_Click);
+            // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.Color.Coral;
+            this.button3.BackgroundImage = global::tapsiriq___1._2.Properties.Resources._216104_backspace_icon;
+            this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button3.Location = new System.Drawing.Point(433, 233);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(109, 91);
+            this.button3.TabIndex = 23;
+            this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.Coral;
+            this.button1.BackgroundImage = global::tapsiriq___1._2.Properties.Resources._1772628_calculate_calculation_math_square_square_root_icon;
+            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button1.Location = new System.Drawing.Point(318, 330);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(109, 91);
+            this.button1.TabIndex = 18;
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // button_kvadrat
+            // 
+            this.button_kvadrat.BackColor = System.Drawing.Color.Coral;
+            this.button_kvadrat.BackgroundImage = global::tapsiriq___1._2.Properties.Resources._1772617_calculation_calculator_math_pow_pow_sign_icon;
+            this.button_kvadrat.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button_kvadrat.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button_kvadrat.Location = new System.Drawing.Point(201, 330);
+            this.button_kvadrat.Name = "button_kvadrat";
+            this.button_kvadrat.Size = new System.Drawing.Size(109, 91);
+            this.button_kvadrat.TabIndex = 17;
+            this.button_kvadrat.Text = " ";
+            this.button_kvadrat.UseVisualStyleBackColor = false;
+            this.button_kvadrat.Click += new System.EventHandler(this.button_kvadrat_Click);
+            // 
+            // button_vur
+            // 
+            this.button_vur.BackColor = System.Drawing.Color.Coral;
+            this.button_vur.BackgroundImage = global::tapsiriq___1._2.Properties.Resources._1772632_calculator_math_multiplication_multiplication_sign_multiply_icon;
+            this.button_vur.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button_vur.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button_vur.Location = new System.Drawing.Point(433, 427);
+            this.button_vur.Name = "button_vur";
+            this.button_vur.Size = new System.Drawing.Size(109, 91);
+            this.button_vur.TabIndex = 14;
+            this.button_vur.Text = "*";
+            this.button_vur.UseVisualStyleBackColor = false;
+            this.button_vur.Click += new System.EventHandler(this.button_vur_Click);
+            // 
+            // button_bolme
+            // 
+            this.button_bolme.BackColor = System.Drawing.Color.Coral;
+            this.button_bolme.BackgroundImage = global::tapsiriq___1._2.Properties.Resources._1772625_calcuator_divide_division_division_sign_math_icon;
+            this.button_bolme.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button_bolme.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button_bolme.Location = new System.Drawing.Point(433, 330);
+            this.button_bolme.Name = "button_bolme";
+            this.button_bolme.Size = new System.Drawing.Size(109, 91);
+            this.button_bolme.TabIndex = 13;
+            this.button_bolme.Text = "/";
+            this.button_bolme.UseVisualStyleBackColor = false;
+            this.button_bolme.Click += new System.EventHandler(this.button_bolme_Click);
+            // 
+            // button_minus
+            // 
+            this.button_minus.BackColor = System.Drawing.Color.Coral;
+            this.button_minus.BackgroundImage = global::tapsiriq___1._2.Properties.Resources._1772613_calculate_eliminate_hide_minus_soustract_icon;
+            this.button_minus.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button_minus.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button_minus.Location = new System.Drawing.Point(433, 524);
+            this.button_minus.Name = "button_minus";
+            this.button_minus.Size = new System.Drawing.Size(109, 91);
+            this.button_minus.TabIndex = 12;
+            this.button_minus.Text = "-";
+            this.button_minus.UseVisualStyleBackColor = false;
+            this.button_minus.Click += new System.EventHandler(this.button_minus_Click);
+            // 
+            // button_plus
+            // 
+            this.button_plus.BackColor = System.Drawing.Color.Coral;
+            this.button_plus.BackgroundImage = global::tapsiriq___1._2.Properties.Resources._1772631_add_addition_addition_sign_calculator_math_icon;
+            this.button_plus.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button_plus.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button_plus.ForeColor = System.Drawing.Color.Black;
+            this.button_plus.Location = new System.Drawing.Point(433, 621);
+            this.button_plus.Name = "button_plus";
+            this.button_plus.Size = new System.Drawing.Size(109, 91);
+            this.button_plus.TabIndex = 11;
+            this.button_plus.Text = "+";
+            this.button_plus.UseVisualStyleBackColor = false;
+            this.button_plus.Click += new System.EventHandler(this.button_plus_Click);
             // 
             // Form1
             // 
